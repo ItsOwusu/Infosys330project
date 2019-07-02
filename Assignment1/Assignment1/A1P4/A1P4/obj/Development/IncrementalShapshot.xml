@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>A1P4 kfri750</Database>
+    <Server>isomdatabasep01.uoa.auckland.ac.nz\infosys330</Server>
+    <ConnectionString>Data Source=isomdatabasep01.uoa.auckland.ac.nz\infosys330;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>wvC2XaMmXRVGMNuF9m4SjxHtbTo=19/09/2018 2:07:15 PM19/09/2018 1:54:02 PM</TimeStamp>
+        <ID>
+          <String>Kfri750 A</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>wEQAH9xAj2olM2DvOI59f+BmBPg=19/09/2018 6:58:11 PM19/09/2018 6:57:18 PM</TimeStamp>
+        <ID>
+          <String>Kfri750 A</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ygeWgPW/5jC7yIQTLQ+A4Agktaw=19/09/2018 6:59:50 PM19/09/2018 6:58:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Order Detail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z9dJfmf5u3ZCoKsWqEcis4VAY5c=19/09/2018 6:59:50 PM19/09/2018 6:58:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hQNgNEOhYCuLFuI+96RlTY/zGjQ=19/09/2018 7:54:45 PM19/09/2018 6:58:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>fFdh7Qp61NZsp6L6HQN05wdyWgU=19/09/2018 7:54:45 PM19/09/2018 6:58:11 PM25+f+wCvvSk/4BhuZpi2QFYIjWo=19/09/2018 6:58:11 PM19/09/2018 6:58:11 PM</TimeStamp>
+        <ID>
+          <String>Kfri750 A</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>wm+RLphRvIhbsVeFTz0pIGOej2Q=19/09/2018 1:53:13 PM19/09/2018 1:53:13 PM</TimeStamp>
+      <ID>
+        <String>A1P4 kfri750</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-09-19T07:54:47.226667Z</LastDeployed>
+</DeploymentSnapshot>
